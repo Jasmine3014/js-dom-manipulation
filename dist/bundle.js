@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("var h1 = document.getElementById('h1');\nh1.innerHTML(\"I  am jasmine akter, student of BUBT\");\nconsole.log(h1);\n\n//# sourceURL=webpack://dom/./src/index.js?");
+eval("// let h1 = document.getElementById('h1')\n// h1.innerHTML(\"I  am jasmine akter, student of BUBT\")\n// console.log(h1)\nvar headers = document.getElementsByTagName('h1');\nconsole.log(headers);\n\n//# sourceURL=webpack://dom/./src/index.js?");
 
 /***/ })
 
